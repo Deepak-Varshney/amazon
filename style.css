@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+
+.logo{
+    background-image: url('amazon_logo.png');
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.border:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/*box 2*/
+.add-first{
+    color: #cccccc; 
+    margin-left: 15px;
+    font-size: 0.84rem;
+}
+
+.add-sec{
+    margin-left: 3px;
+    font-size: 1rem;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 630px;
+    height: 44px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 45px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 2rem;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-input:focus{
+    outline: none;
+}
+
+.search-button {
+    background-color: #febd68;
+    width: 50px;
+    height: 44.65px;
+
+    border-top-right-radius: 3px;
+    font-size: 2rem;
+    border-bottom-right-radius: 3px;
+    border: none;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.nav-search:hover{
+    border: 3px solid orange;
+    border-radius: 6px;
+}
+
+.fade:hover{
+    filter: brightness(85%);
+}
+
+.fade-light:hover{
+    filter: brightness(115%);
+}
+.nav2 {
+    background-color: #232f3e;
+    color: white;
+    height: 39px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-right-sec{
+    margin-left: 500px;
+    height: 100%;
+}
+
+.box1{
+    height: 100%;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-left-sec{
+    display: flex;
+}
+
+.select-language{
+    outline: none;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+.cart i{
+    font-size: 28px;
+}
+
+.hero-section{
+    background-image: url('hero_image.jpg');
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.mid-text{
+    background-color: #f5f6f6;
+    color: #0f1111;
+    line-height: 20px;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 97%;
+    margin-bottom: 19px;
+}
+
+.shop-section{
+    background-color: rgba(255, 228, 138, 0.415);
+    justify-content: space-evenly;
+    height: 100%;
+    display: flex;
+}
+
+.sec{
+
+    height: 400px;
+    width: 22.50%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 17px;
+}
+
+.box-img{
+    height: 300px;
+
+    background-size: contain;
+    margin-bottom: 1.7rem;
+    margin-top: 1.7rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.foot-panel-1{
+    background-color: #37475a;
+    color: white;
+    
+}
+.foot-panel-1 a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-size: 0.85rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.foot-panel-2{
+    background-color: #232F3E;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items:top center;
+    height: 370px;
+}
+
+.nav-a{
+    color:#DDDDDD; 
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding-left: 92px;
+    
+}
+ul{
+    list-style: none;
+    padding-top: 50px;
+}
+li{
+    padding-top:5px;
+}
+.panel-2-head{
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+
+.foot-panel-3{
+    background-color: #131A22;;
+    height: 100%;
+    font-size: 0.70rem;
+    display: flex;
+
+}
+
+ul a{
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+/* Your existing styles... */
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for screens up to 768px width */
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-right-sec {
+        margin-left: 0;
+    }
+
+    .nav-right {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .nav2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-right-sec {
+        margin-left: 0;
+    }
+
+    .hero-section {
+        height: 200px;
+    }
+
+    .mid-text {
+        font-size: 0.8rem;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec {
+        width: 80%;
+    }
+
+    .box-img {
+        height: 200px;
+    }
+
+    .foot-panel-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .panel-2-head {
+        padding-left: 10px;
+    }
+
+    .foot-panel-3 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 480px) {
+    /* Adjustments for screens up to 480px width (typical mobile phones) */
+    .nav-search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-right-sec {
+        margin-left: 0;
+    }
+
+    .nav-right {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .nav2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-right-sec {
+        margin-left: 0;
+    }
+
+    .hero-section {
+        height: 150px;
+    }
+
+    .mid-text {
+        font-size: 0.7rem;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec {
+        width: 90%;
+    }
+
+    .box-img {
+        height: 150px;
+    }
+
+    .foot-panel-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .panel-2-head {
+        padding-left: 10px;
+    }
+
+    .foot-panel-3 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
